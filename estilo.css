@@ -1,0 +1,28 @@
+body{
+    font-family:  Calibri, sans-serif;
+    background: rgb(100, 100, 189) ;
+
+}
+
+header{
+    text-align: center;
+
+}
+
+section{
+    background: rgb(193, 193, 206) ;
+    border: 7px solid rgb(217, 217, 226);
+    border-radius: 3px;
+    padding: 10px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.692);
+
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+
+}

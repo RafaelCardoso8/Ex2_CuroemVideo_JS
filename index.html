@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio_CursoEmVideo_JS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <h2>Qual a idade?
+                <input type="number" name="txtano" id="txtano">
+            </h2>
+            <h2>Escolha o sexo:
+                <input type="radio" name="res_sex" id="masc" checked>
+                <label for="masc">MASCULINO</label>
+                <input type="radio" name="res_sex" id="fem">
+                <label for="fem">FEMININO</label>
+            </h2>
+            <h2> <input type="button" value="VERIFICAR" onclick="verificar()"></h2>
+        </div>
+        <div id="resultado">
+            <p>Se você preencheu os dados corretamente clique no botão para ver o resultado.</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Cardoso Design</p>
+
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
