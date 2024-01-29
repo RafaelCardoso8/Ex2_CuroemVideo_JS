@@ -52,7 +52,7 @@
                     img.setAttribute('src' , 'idoso-F.png')
                 }
             }
-            res.innerHTML =(`Idade calculada é ${idade} e o genero é ${genero}.`)
+            res.innerHTML =(`Idade calculada é ${idade} anos e o genero é ${genero}.`)
             res.appendChild(img)
             
         }
